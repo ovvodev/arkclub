@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ΑΣ Άρκτος Θεσσαλονίκης</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="keywords" content="jujitsu,sport jujitsu,nijutsu,Thessaloniki Jujitsu,jujutsu thessaloniki,jiujitsu,jiu-jitsu 	thessaloniki,yoga,pilates" >
+        <meta name="description" content="A.S Arktos Thessaloniks.Sport Jujitsu and fitness.Proxenou Koromila 13,Thessaloniki Center" >
+                
+		<link href='http://fonts.googleapis.com/css?family=BenchNine:700|Ubuntu|Roboto+Condensed:700&subset=latin,greek' rel='stylesheet' type='text/css'>
+		<link href="css/normalize.css" rel="stylesheet" />
+        <link href="css/icecream-grid.min.css" rel="stylesheet" title="main" />
+        <link href="css/animate.min.css" rel="stylesheet" title="main" />
+        <link href="css/style.css" rel="stylesheet" title="main" />
+		<link href="css/circle.css" rel="stylesheet" title="main" />
+		
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/raphael-min.js"></script>	
+		<script type="text/javascript" src="js/jquery.lazylinepainter-1.4.1.min.js"></script>
+        <script type="text/javascript" src="js/lazyline.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+            	var to = setTimeout(function (){
+                    $(".loader").delay(400).fadeOut("slow","linear");
+                    $( "div" ).removeClass( "reverse" );
+					},16100);
+			$("#stopanimation").click(function (){
+				$('#logoloader').lazylinepainter().lazylinepainter('destroy');
+				$(".loader").delay(10).fadeOut("fast","linear");
+				$( "div" ).removeClass( "reverse" );
+				clearTimeout(to);
+			
+		});
+            });
+        </script>
+        <noscript>
+			<meta HTTP-EQUIV="REFRESH" content="2; url=http://www.arkclub.gr/nojs.html"> 
+		</noscript>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-57203283-1', 'auto');
+  			ga('send', 'pageview');
+		</script>
+    </head>
+ <body>
+	 <div class="loader">
+		<div id="stopanimation"><a href="#">enter</a></div>
+		<div id="logoloader"></div>
+	</div>
+ 	<div class="overflow reverse">
+    	<header class="i-g animated fadeIn">
+    			<div class="i-6 i-tl-2 i-tp-4 i-mp-0 i-ml-0 mainnav">
+    				<ul id="menu">
+    					<li><a href="index.html" class="current">home</a></li>
+    					<li><a href="martial.html">jujitsu</a></li>
+						<li><a href="ninjutsu.html">ninjutsu</a></li>
+    					<li><a href="fitness.html">fitness</a></li>
+    					<li><a href="contact.html">contact</a></li>
+    				</ul>
+    			</div>
+    			<div class="i-6 i-tl-2 i-tp-4  i-mp-4 i-ml-4 pictograms">
+						<a href="https://www.facebook.com/arkclubgr" target="_blank">&#62220;</a>
+						<a href="https://google.com/+ArkclubGr13" target="_blank">&#62223;</a>
+    					<a href="https://twitter.com/arkclubgr" target="_blank">&#62217;</a>
+    					<a href="http://vimeo.com/83525109" target="_blank">&#62214;</a>
+    			</div>
+    			<div class="i-mp-4 i-ml-4 mobilemenu">
+    					<a href="#anchordown">.MENU</a>
+    			</div>
+    	</header>
+    	<div class="i-g mainlogo">
+    					<div class="i-12 japanese animated pulse">武道スポーツ</div>
+    					<div class="i-12">
+	    					<div class="circles">
+	    					 <div class="circle circle-1"></div>
+	    					 <div class="circle circle-2"></div>
+	    					 <div class="circle circle-3"></div>
+	    					 <div class="circle circle-4"></div>
+	    					 <div class="circle circle-5"></div>
+	    					 <div class="circle circle-6"></div>
+	    					 <div class="circle circle-7"></div>
+	    					 <div class="circle circle-8"></div>
+	    					 <div class="circle circle-9"></div>
+	    					 <div class="circle circle-10"></div>
+	    					</div>
+	    				</div>
+    					<div class="i-12">
+    						<div class="slogan animated pulse">ARK.club</div>
+    					</div>
+    	</div>
+    	<footer class="i-g i-12 animated fadeIn sprite">
+    			<p>&#91;choose <br />
+    			your theme&#93;</p>
+    			<p>W<span>or</span><a href="black/index.html">B</a></p>
+    	</footer>
+    </div>
+    	<div class="reverse">
+    			<ul class="i-g mobilepanel">
+    			<li><a href="index.html" class="current-mobile i-12">.HOME</a></li>
+    			<li><a href="martial.html" class="i-12">.JUJITSU</a></li>
+				<li><a href="ninjutsu.html" class="i-12">.NINJUTSU</a></li>
+    			<li><a href="fitness.html" class="i-12">.FITNESS</a></li>
+    			<li><a id="anchordown" href="contact.html" class="i-12">.CONTACT</a></li>
+    			</ul>
+    	</div>
+ </body>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="385px" height="801px" viewBox="0 0 385 801" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-73.91327%" y1="49.7505009%" x2="74.7459535%" y2="27.373251%" id="linearGradient-1">
+            <stop stop-color="#F10000" offset="0%"></stop>
+            <stop stop-color="#F44B4B" offset="47.5247532%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-73.91327%" y1="49.7505009%" x2="91.4642419%" y2="32.6200638%" id="linearGradient-2">
+            <stop stop-color="#F10000" offset="0%"></stop>
+            <stop stop-color="#F44B4B" offset="47.5247532%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-73.91327%" y1="49.7505009%" x2="100%" y2="71.5674446%" id="linearGradient-3">
+            <stop stop-color="#F10000" offset="0%"></stop>
+            <stop stop-color="#F44B4B" offset="47.5247532%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-73.91327%" y1="49.7505009%" x2="100%" y2="121.612025%" id="linearGradient-4">
+            <stop stop-color="#F10000" offset="0%"></stop>
+            <stop stop-color="#F44B4B" offset="47.5247532%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-73.91327%" y1="49.7505009%" x2="128.683503%" y2="49.7505009%" id="linearGradient-5">
+            <stop stop-color="#F10000" offset="0%"></stop>
+            <stop stop-color="#F4594B" offset="47.5247532%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-73.91327%" y1="49.7505009%" x2="128.683503%" y2="49.7505009%" id="linearGradient-6">
+            <stop stop-color="#F10000" offset="0%"></stop>
+            <stop stop-color="#F4734B" offset="47.5247532%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-73.91327%" y1="49.7505009%" x2="128.683503%" y2="49.7505009%" id="linearGradient-7">
+            <stop stop-color="#F10000" offset="0%"></stop>
+            <stop stop-color="#F44B4B" offset="47.5247532%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="black-big-runner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(0.000000, 1.000000)">
+            <path d="M69.8184078,177.534369 C76.9957476,252.148932 183.173553,299.255146 183.173553,366.397476 C183.173553,393.023495 77.5333592,482.980971 57.6539417,497.827767" id="Shape" stroke="url(#linearGradient-1)" stroke-width="1.07" sketch:type="MSShapeGroup" transform="translate(120.413748, 337.681068) scale(-1, 1) translate(-120.413748, -337.681068) "></path>
+            <path d="M84.1484854,174.557243 C91.3258252,249.171806 177.283631,301.70132 177.283631,368.844621 C177.283631,395.470641 91.8442136,489.862874 71.9647961,504.70967" id="Shape" stroke="url(#linearGradient-2)" stroke-width="1.07" sketch:type="MSShapeGroup" transform="translate(124.624214, 339.633456) scale(-1, 1) translate(-124.624214, -339.633456) "></path>
+            <path d="M0.34038835,538.976699 C0.34038835,538.976699 31.8623301,717.984854 81.9161165,727.88466 C131.969903,737.784427 247.140583,789.745825 261.323689,799.265243" id="Shape" stroke="url(#linearGradient-3)" stroke-width="1.07" sketch:type="MSShapeGroup" transform="translate(130.832039, 669.120971) scale(-1, 1) translate(-130.832039, -669.120971) "></path>
+            <path d="M61.7019417,553.54466 C61.7019417,553.54466 99.8720388,706.649709 149.926019,716.549515 C199.979806,726.449282 252.311845,757.958058 266.494757,767.477476" id="Shape" stroke="url(#linearGradient-4)" stroke-width="1.07" sketch:type="MSShapeGroup" transform="translate(164.098350, 660.511068) scale(-1, 1) translate(-164.098350, -660.511068) "></path>
+            <path d="M351.493243,-0.0387902913 C308.715767,2.56359806 304.104699,53.7163553 304.104699,53.7163553 C304.104699,53.7163553 285.272951,101.43655 289.296175,103.448977 C295.075282,106.339559 292.566971,141.13286 298.062447,144.816938 C309.193184,152.278938 330.927883,147.87288 341.157981,154.731113 C347.443301,158.944763 298.062447,199.661404 298.062447,252.43286 C298.062447,305.204511 341.157981,454.74354 341.157981,454.74354 C341.157981,454.74354 237.230796,543.925676 237.230796,583.057909 C237.230796,616.687229 381.376427,751.49053 384.053903,753.82587" id="Shape" stroke="url(#linearGradient-5)" stroke-width="1.07" sketch:type="MSShapeGroup" transform="translate(310.642350, 376.893540) scale(-1, 1) translate(-310.642350, -376.893540) "></path>
+            <path d="M354.446389,157.295666 C358.360289,161.439394 300.827264,204.149312 300.827264,256.045252 C300.827264,307.941191 349.179515,456.831862 349.179515,456.831862 C349.179515,456.831862 237.693087,543.822398 237.693087,582.305258 C237.693087,615.376521 366.842086,769.344048 386.644103,770.76569" id="Shape" stroke="url(#linearGradient-6)" stroke-width="0.880671782" sketch:type="MSShapeGroup" transform="translate(312.168595, 464.030678) scale(-1, 1) rotate(-2.386106) translate(-312.168595, -464.030678) "></path>
+            <path d="M188.663593,481.16771 C182.581565,485.709447 161.082172,497.803832 161.082172,503.117268" id="Shape" stroke="#D0011B" stroke-width="1.05844054" sketch:type="MSShapeGroup" transform="translate(174.872882, 492.142489) scale(-1, 1) rotate(71.278905) translate(-174.872882, -492.142489) "></path>
+            <path d="M233.019107,757.04466 C232.003052,762.214272 227.854369,777.598641 227.854369,784.897282" id="Shape" stroke="url(#linearGradient-7)" stroke-width="1.07" sketch:type="MSShapeGroup" transform="translate(230.436738, 770.970971) scale(-1, 1) translate(-230.436738, -770.970971) "></path>
+        </g>
+    </g>
+</svg>

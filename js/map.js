@@ -178,12 +178,12 @@ function initialize() {
 			zoomControlDiv.index = 1;
 			map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(zoomControlDiv);
       }
-      
-        // Ensure the API is loaded by wrapping initialization in a callback
-        function initMap() {
-            // Your existing map initialization code here
-        }
+// Define initMap function
+function initMap() {
+    // Move your map initialization code here
+    const map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    // Rest of your map setup code
+}
 
-        // Load the map after the API is ready
-        window.initMap = initMap;
-	  
+// Make initMap globally available
+window.initMap = initMap;

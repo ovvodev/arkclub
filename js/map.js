@@ -6,6 +6,7 @@ function ZoomControl(controlDiv, map) {
   // Set CSS for the control wrapper
   var controlWrapper = document.createElement('div');
   controlWrapper.style.cursor = 'pointer';
+  controlWrapper.style.marginRight = '10px';
   controlWrapper.style.textAlign = 'center';
   controlWrapper.style.width = '38px'; 
   controlWrapper.style.height = '74px';
@@ -47,7 +48,7 @@ function ZoomControl(controlDiv, map) {
   zoomOutText.style.paddingBottom = '4px';
   zoomOutText.innerHTML = '<strong>-</strong>';
   zoomOutButton.appendChild(zoomOutText);  // Setup the click event listener - zoomIn
-  google.maps.event.addDomListener(zoomInButton, 'click', function() {
+  zoomInButton.addEventListener('click', function() {
     map.setZoom(map.getZoom() + 1);
   });
 
@@ -57,7 +58,6 @@ function ZoomControl(controlDiv, map) {
   });  
 
 }
-
 function initialize() {
 
 
@@ -150,12 +150,11 @@ function initialize() {
         
         
            setTimeout(function() {
-        		marker = new google.maps.Marker({
-                	map:map,
-                	draggable:true,
-                	animation: google.maps.Animation.DROP,
-                	position: center
-              	});
+              marker = new google.maps.marker.AdvancedMarkerElement({
+                map: map,
+                position: center,
+                title: 'Your marker title'
+            });
               	google.maps.event.addListener(marker, 'click', function() {
               	      map.setZoom(17);
               	      map.setCenter(marker.getPosition(center));
